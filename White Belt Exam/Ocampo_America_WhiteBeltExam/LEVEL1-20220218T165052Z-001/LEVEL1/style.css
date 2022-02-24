@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 1em sans-serif;
+}
+
+body {
+    background-color: wheat;
+}
+
+p,
+img {
+    margin-bottom: 20px;
+}
+
+#container {
+    align-items: top;
+    width: 900px;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: white;
+    border-left: lightgrey;
+    border-right: lightgrey;
+}
+
+#header {
+    padding: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    background-color:#79b5f1;
+}
+h1{
+    font-size:xx-large;
+    font-weight:bold;
+}
+h2{
+    font-size: x-large;
+    font-weight: bold;
+}
+/*
+ASIDE AND MAIN MUST BE SIDE BY SIDE
+ADD THE CORRECT PROPERTIES TO THEIR RULE SETS
+*/
+#chunk{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+aside {
+    display: inline-block;
+    width: 200px;
+    padding: 200px;
+}
+
+main {
+    display: inline-block;
+    width: 640px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+#nav {
+    list-style: none;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+#nav a {
+    text-decoration:none;
+}

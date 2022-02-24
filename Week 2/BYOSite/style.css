@@ -1,0 +1,67 @@
+
+body{
+    background-color: rgb(12, 12, 12);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+h1{
+    color: rgb(255, 6, 6);
+    text-align: center;
+}
+h2, h3 {
+    color: rgb(255, 147, 6);
+    text-align: center;
+}
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.orange {
+    color: rgb(236, 167, 17);
+    text-align: center;
+}
+.yello {
+    color: rgb(236, 221, 17);
+    text-align: center;
+}
+.gibberish {
+    color: rgb(79, 236, 17);
+    text-align: center;
+}
+.plant {
+    color: rgb(19, 107, 34);
+    text-align: center;
+}
+#list {
+    color:rgb(34, 173, 150) ;
+    text-align: :left;
+}
+h4 {
+    color: rgb(20, 62, 177);
+    text-align: left;
+}
+
+th, td {
+    width: 200px;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 8px 2px 30px 10px #0ff;
+    background-color: #0f2050;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    color: rgb(14, 221, 248);
+    border-bottom: 1px solid #ddd;
+}
+
+.contact {
+    color: rgb(191, 109, 247);
+    text-align: center;
+}
+#form {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(95, 177, 248);
+}

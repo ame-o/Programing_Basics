@@ -1,0 +1,12 @@
+*{
+    color: red;
+    background-color: black;
+}
+
+.card{
+    padding 10px; *
+    background-color: darkgray;
+    padding: 5px; 
+    text-align: center;
+    font-family: sans-serif;
+}
