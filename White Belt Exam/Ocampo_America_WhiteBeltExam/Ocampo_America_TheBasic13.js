@@ -60,16 +60,16 @@ function printMaxOfArray(arr){
 
 //6. Get and Print Average
 //Analyze an array’s values and print the average.
-
+var arr = [2,6,8,9,0,10,11];
 function printAverageOfArray(arr) {
     var sum = 0
     for(var i=0;i<arr.length;i++){
         sum = sum + arr[i]
     }
-    let avg = math.round(sum/arr.length);
+    let avg = Math.round(sum/arr.length);
     return avg;
 }
-///console.log(printAverageOfArray(arr));*****WHAT'S WRONG?
+console.log(printAverageOfArray(arr));
 
 
 //7. Array with Odds
@@ -154,6 +154,7 @@ function shiftArrayValsLeft(arr){
     for(i = 1; i< arr.length; i++) {
         arr[0] = arr[i]
     }
+    arr.shift();
     arr.push(0);
     return arr;
 }

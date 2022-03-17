@@ -36,7 +36,7 @@ function howMuchLeftoverPizza2(numberOfPiecesofPizza, numberOfPeople){
 howMuchLeftoverPizza2(12,5);
 
 
-//Option2:
+//Option2:   ****INCOMPLETE***
 function leftoversFeature2 (numberOfPiecesofPizza,numberOfPeople){
     howMuchLeftoverPizza(numberOfPiecesofPizza,numberOfPeople);
 
